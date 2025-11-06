@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.stage {
+  width: 100dvw;
+  height: 100dvh;
+  background: center center / cover no-repeat;
+  background-image: url("assets/coming-desktop@2x.png");
+}
+
+@media (max-aspect-ratio: 10/16), (max-width: 600px) {
+  .stage {
+    background-image: url("assets/coming-mobile@2x.png");
+  }
+}
